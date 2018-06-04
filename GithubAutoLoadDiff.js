@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Github Automatic Load Diff
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @author       David Wang
 // @match        github.com/*/pull/*
 // @grant        none
