@@ -11,7 +11,6 @@
 
 (function () {
   'use strict';
-  console.log('abcd');
   $(document).ready(function () {
     $('button.load-diff-button').trigger('click');
   });
