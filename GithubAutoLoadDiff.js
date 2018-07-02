@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Github Auto Load Diff in PR
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @author       David Wang
 // @match        github.com/*/pull/*
 // @grant        none
@@ -10,7 +10,8 @@
 // ==/UserScript==
 
 (function () {
-  console.log('abcd');
+  'use strict';
+
   $(document).ready(function () {
     $('button.load-diff-button').trigger('click');
   });
