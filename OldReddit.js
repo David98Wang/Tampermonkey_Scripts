@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Github Auto Load Diff in PR
+// @name         Autod load old reddit
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @author       David Wang
