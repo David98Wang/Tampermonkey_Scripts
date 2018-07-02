@@ -3,15 +3,15 @@
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @author       David Wang
-// @match        github.com/*/pull/*
+// @match        www.reddit.com/*
 // @grant        none
 // @require      http://code.jquery.com/jquery-3.3.1.min.js
 // @run-at       document-end
 // ==/UserScript==
 
 (function () {
-  console.log('abcd');
-  $(document).ready(function () {
-    $('button.load-diff-button').trigger('click');
-  });
+  'use strict';
+  let url = window.location.href;
+  let oldRedditUrl = url.replace(`www.reddit.com`, `old.reddit.com`);
+  location.replace(oldRedditUrl);
 })();
